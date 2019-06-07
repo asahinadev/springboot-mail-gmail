@@ -1,0 +1,15 @@
+spring:
+  mail:
+    default-encoding: UTF-8
+    protocol: "smtp"
+    host:     "smtp.gmail.com"
+    port:     587
+    username: "[env]"
+    password: "[env]"
+    properties:
+      mail.smtp.auth:              true
+      mail.smtp.starttls.enable:   true
+      mail.smtp.connectiontimeout: 60000
+      mail.smtp.timeout:           60000
+      mail.smtp.debug:             false
+      test-connection:             false
