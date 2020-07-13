@@ -1,12 +1,10 @@
 package com.example.spring.form;
 
-import java.io.Serializable;
+import java.io.*;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.*;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
